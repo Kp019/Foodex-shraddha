@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+
+  <style>
+    body{
+      background-color: rgb(52, 11, 11);
+    }
+    a {
+    text-decoration: none;
+    color: white; /* Change link text color to white */
+  }
+    nav{
+      display: flex;
+      justify-content: space-between;
+      color:white;
+      margin-left: 30px;
+      font-size: 26px;
+    }
+    nav ul{
+      display:flex;
+    }
+    nav ul li{
+      list-style: none;
+      margin-inline: 30px;
+      
+    }
+    nav h1{
+      font-size: 40px;
+      color:rgb(189, 177, 40);
+      border-bottom: 5px solid red;
+    }
+    .btn button{
+      width:100px;
+      height: 36px;
+      border: 3px ;
+      border-style: solid;
+      border-color:rgb(189, 177, 40);
+      color:white;
+      font-size: 18px;
+      border-radius: 20px;
+      background-color: black;
+      margin-top:20px;
+      margin-right: 10px;
+    }
+    .btn button:hover{
+       background-color: rgb(189, 177, 40);
+       border-style: solid;
+       border-color: black;
+    }
+    .main{
+      display: flex;
+      justify-content: space-between;
+      color:white;
+    }
+    .head h1{
+      font-size: 70px;
+      margin-left: 40px;
+      
+    }
+    .img img{
+      height: 200px;
+      margin-top: 30px;
+    }
+    .head button{
+      width: 170px;
+      height:45px;
+      background-color:rgb(189, 177, 40);;
+      font-size: 25px;
+      border-radius: 6px;
+      color: rgb(0, 0, 0);
+      margin-left: 40px;
+        }
+      .head button:hover{
+        background-color:black ;
+        border: 2px;
+        border-style: solid;
+        border-color:rgb(189, 177, 40) ;
+        transition: 0.5s;
+        cursor:pointer;
+        color:rgb(189, 177, 40);
+      }
+        nav ul li:hover{
+        background-color:rgb(189, 177, 40);
+        border: 2px solid;
+        border-color:rgb(0, 0, 0);
+        height:26px;
+        width:150px;
+        text-align:center;}
+
+        nav ul li:active{
+          background-color: black;
+          color:rgb(189, 177, 40);
+        }
+
+.s2 {
+    position: relative;
+    }
+.s2 ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(189, 177, 40);
+}
+
+.s2:hover ul {
+  display: block;
+  text-align: justify;
+  margin-left: 0px;
+  padding-left: 0px;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.s3 {
+          position: relative;
+            }
+.s3 ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(189, 177, 40);
+}
+
+.s3:hover ul {
+  display: block;
+  text-align: justify;
+  margin-left: 0px;
+  padding-left: 0px;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.s4 {
+    position: relative;
+          }
+.s4 ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(189, 177, 40);
+}
+
+.s4:hover ul {
+  display: block;
+  text-align: justify;
+  margin-left: 0px;
+  padding-left: 0px;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+</style>     
+</head>
+<body>
+ 
+    <nav>
+      <h1>Foodex</h1>
+      <ul>
+        <li class="active"><a>Home</a></li>
+       <li class="s2">
+        <a>About</a>
+          <ul>
+            <li><a href="happy_customers.html " target="_blank">Happy Customers</a></li>
+            <li><a href="mission.html" target="_blank">Mission</a></li>
+            <li><a href="team.html" target="_blank">Team</a></li>
+          </ul>
+        </li >
+        <li class="s3">
+          <a>Order</a>
+            <ul>
+              <li><a href="indian.html"target="_blank">Indian</a></li>
+              <li><a href="mexican.html"target="_blank">Mexican</a></li>
+              <li><a href="chinese.html"target="_blank">Chinese</a></li>
+            </ul>
+          </li >
+          <li class="s4">
+            <a href="contacts.html"target="_blank">Contact</a>
+            </li >
+      </ul>
+
+      <div class="btn">
+        <button><a href="./login.html" target="_blank">Login</a></button>
+        <button><a href="./signup.html" target="_blank">Sign Up</a></button>
+      </div>
+    </nav>
+    <div class="main">
+       <div class="head">
+        <h1>Your Scrumptious<br>Food Destination!</h1>
+          
+      </div>
+      <div class="img">
+        <img src="https://img.freepik.com/free-photo/high-angle-chicken-meal_23-2148825122.jpg?w=996&t=st=1685108054~exp=1685108654~hmac=89f879a800ceb3be5455fa9573300e1c4dc89c6044f3a7e627a138e34171bc85">
+        <img src="https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg?w=996&t=st=1685108217~exp=1685108817~hmac=e1a06d6305d0ce6817f9542b468f249cf5aa0fc73454420555b9bdcc03896346">
+        <img src="https://img.freepik.com/free-photo/pasta-spaghetti-with-shrimps-sauce_1220-5072.jpg?w=996&t=st=1685107719~exp=1685108319~hmac=e6c975ba3f8070237c1af679f574467085c0753ae1bf74cf2ad017c08b14858b">  
+        <img src="https://img.freepik.com/free-photo/deep-fried-fhicken-roll-dark-surface_1150-43584.jpg?w=1060&t=st=1685108447~exp=1685109047~hmac=ab149ddf5b3c7145a44fbdcc8568f3302f95ad85803980fb6ee73c817197f0f4">
+        <img src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?size=626&ext=jpg&ga=GA1.2.1810203238.1681372075&semt=ais">
+      </div>
+    </div>
+    
+</body>
+</html>

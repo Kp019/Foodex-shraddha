@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body{
+      background-image: url("https://img.freepik.com/free-vector/watercolor-thanksgiving-day-background-theme_23-2148676194.jpg?size=626&ext=jpg&ga=GA1.1.1810203238.1681372075&semt=robertav1_2_sidr");
+      background-position: center;
+      background-size: cover;
+      font-family: sans-serif;
+      
+    }
+    .L{
+      width: 320px;
+      height: 450px;
+      background: black;
+      color: white;
+      position: absolute;
+      top:20%;
+      left:40%;
+      box-sizing: border-box;
+      padding:50px 30px;
+    }
+    .A{
+      width:80px;
+      height:80px;
+      border-radius:50%;
+      position: absolute;
+      top:-50px;
+      left:35%;
+    }
+    h1{
+      margin:0;
+      padding: 0 0 20px;
+      text-align: center;
+      font-size: 22px;
+    }
+    .L p{
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+    }
+    .L input{
+      width: 100%;
+      margin-bottom:20px;
+    }
+    .L input[type="text"], input[type="password"]{
+      border: none;
+      border-bottom: 1 px solid white;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color:white;
+      font-size: 14px;
+    }
+    .L input[type="submit"]{
+      border: none;
+      outline: none;
+      height: 40px;
+      background: rgb(249, 6, 6);
+      color:white;
+      font-size: 18px;
+      border-radius:20px;
+      
+    }
+    .L input[type="submit"]:hover{
+     background-color: yellow;
+     color:black;
+    }
+    .B{
+      color:rgb(67, 65, 65);
+      font-size: 20px;
+    }
+    .B:hover{
+       color:rgb(155, 170, 170);
+       cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="L">
+    <img class="A" src="https://img.freepik.com/free-icon/user_318-644324.jpg?size=626&ext=jpg&ga=GA1.1.1810203238.1681372075&semt=robertav1_2_sidr">
+    <h1> Login here</h1>
+    <form>
+      <p>Username</p>
+      <input type="text" name="" placeholder="Enter Username">
+      <p>Password</p>
+      <input type="password"name="" placeholder="Enter Password">
+      <br>
+      <br><br><input type="submit" name="" placeholder="Login">
+      <br><br><a class="B">Forgot Password?</a><br>
+     <br><a class="B">Create an account</a>
+    </form>
+  </div>
+  
+</body>
+</html>
